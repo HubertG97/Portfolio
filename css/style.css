@@ -146,8 +146,9 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
-	padding: 0;
+	padding: 0 0 0 0 ;
 	background: url(../img/intro-bg.jpg) no-repeat right bottom;
+
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -160,9 +161,12 @@ hr {
 	background: -webkit-linear-gradient(top, rgba(27,113,214,0.5) 0%, rgba(20,217,103,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(27,113,214,0.5) 0%, rgba(20,217,103,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801b71d6', endColorstr='#80c54daa', GradientType=0 ); /* IE6-9 */
+
 }
+
 .intro h1 {
 	color: rgba(255,255,255,0.9);
+	margin-left: 15%;
 	font-size: 72px;
 	font-weight: 800;
 	letter-spacing: -1px;
@@ -179,18 +183,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801b71d6', e
 }
 .intro span {
 	color: rgba(255,255,255,0.5);
+	margin-left: 15%;
 	font-size: 28px;
 	font-weight: 300;
+
 }
 header .intro-text {
 	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 	padding-left: 100px;
+
 }
 /* About Section */
 #about {
 	padding: 120px 0;
 	background: #f6f6f6;
+
 }
 #about .about-text {
 	margin-left: 10px;
